@@ -11,15 +11,14 @@ The purpose of this document is to describe the steps to host and format a Resum
 * FAQ
 
 ## Prerequisites
+
+* [Optional] Read Andrew Etter's book on "Modern Technical Writing" [INSERT LINK HERE]
+
 * Create a GitHub account [INSERT LINK HERE]
 
 * Basic familarity of Git and version control.
-  * Why use Git and Version Control?
-    * Version control is one of the core principles from  Etter's *Modern Technical Writing*. It allows colloborators to track different versions and therefore progression and evolution of the document to version it currently exists. Version control also allows collabotors to work on the same file concurrently. Git is one of the most common version control tools that many developers use today.
-
-* [Optional] Read Andrew Etter's book on "Modern Technical Writing" [INSERT LINK HERE]
-  * Why read this book?
-    * This book provides the techniques and nuances of how to write modern techinical documentation. It explores the intriciacies that we should be wary of before any writing devised and written.
+  * *Why use Git and Version Control?*
+    * *Version control is one of the core principles from  Etter's *Modern Technical Writing*. It allows colloborators to track different versions and therefore progression and evolution of the document to version it currently exists. Version control also allows collabotors to work on the same file concurrently. Git is one of the most common version control tools that many developers use today.*
 
 * Basic familiarity and understanding of Markdown [INSERT LINK HERE]
 
@@ -32,7 +31,7 @@ The purpose of this document is to describe the steps to host and format a Resum
 
 ## Instructions
 This is a step-by-step guide of first hosting a resume on GitHub Pages and then making changes our our resumes when needed.
-  * Why use GitHub?
+  * *Why use GitHub and GitHub Pages*
     * 
 
 1. Log in to your GitHub account and create a new repository named: `[YourGitHubUserName].github.io`
@@ -75,11 +74,15 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 4. Your resume should be now hosted on GitHub pages. Navigate to `github.com/[YourGitHubUserName].github.io` to check the webpage. Make sure to check all files you uploaded (mainly your resume) has been uploaded are in place.
     * It might take a 5 minutes to 30 minutes to upload the files to the server to host, once it has been uploaded, you should see a green dot in the title of repository.
 
-5. With your resume now hosted, we can fancy it up by adding a Jekyll theme.
+5. With your resume now hosted, we can fancy it up by adding a Jekyll theme by adding a `_config.yml` file.
 
-    1. First create a new file named `_config.yml`
+    1. First create a new text file. 
+    2. Add in the line `theme: jekyll-theme-cayman`
+    3. Save the file as type: "All Files" with the name `_config.yml`
+6. Commit the `_config.yml` file to the repository. 
 
-7. The final product should be look something like this: [INSERT GIF BELOW]
+7. With the config file comitted you're done! Congratulations. The final product should be look something like this: [INSERT GIF BELOW]
+
 
 ## More Resources
 
