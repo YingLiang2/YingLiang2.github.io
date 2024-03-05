@@ -17,17 +17,29 @@ The purpose of this document is to describe the steps to host and format a Resum
 * Create a GitHub account [INSERT LINK HERE]
 
 * Basic familarity of Git and version control.
+
   * *Why use Git and Version Control?*
+
     * *Version control is one of the core principles from  Etter's *Modern Technical Writing*. It allows colloborators to track different versions and therefore progression and evolution of the document to version it currently exists. Version control also allows collabotors to work on the same file concurrently. Git is one of the most common version control tools that many developers use today.*
 
+    * For a refresher or more learning refer to [INSERT LINK HERE]
+
 * Basic familiarity and understanding of Markdown [INSERT LINK HERE]
+    
+    * *Why use Markdown?*
+  
+    * *Markdown is a keytool mentioned by Etter's book that is used universally by the tech community. It is a lightweight markup language which has an easy learning curve, very verstile and it is cross-platform compatible. Markdown is the base information and many tools and applications support Markdown therefore cross-platform compatiblity is very high. More importantly due to its ease of use, it allows for colloboration from others.* 
+    
+    * For a refresher or more learning refer to [INSERT LINK HERE]
+
 
 * [Optional] Markdown Editior 
+
   * It is highly recommended you invest the time into using a markdown editor as it will speed up the process of creating a MARKDOWN document. This tutorial can be fully done using GitHub itself.
 
+  * List of recommended Markdown Editors [INSERT LIST HERE]
+
 * Create a resume formatted/edited in Markdown
-  * *Why use Markdown?*
-    * *Markdown is a keytool mentioned by Etter's book that is used universally by the tech community. It is a lightweight markup language which has an easy learning curve, very verstile and it is cross-platform compatible. Markdown is the base information and many tools and applications support Markdown therefore cross-platform compatiblity is very high. More importantly due to its ease of use, it allows for colloboration from others.* 
 
 ## Instructions
 This is a step-by-step guide of first hosting a resume on GitHub Pages and then making changes our our resumes when needed.
