@@ -67,7 +67,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
       ![](images/Uploading_First_File_Cropped.png)
 
    2. Add your resume in, saved as "resume.md". Here the commit message box is a description of what you did. So for example in this case, a new file was added. Once you have written a commit message which optional but highly recommened then you can click **Commit changes...** to add the resume to the repository.
-      * *This step is one the big reasons why version control is useful, as it allows us to keep logs of everything that has been done to this repo.*
+      * *A commit message helps the repo keep logs of everything that has been committed.*
       ![](images/Adding_Files_Cropped.png)
 
 3. To successfully host a static site of your resume, the file name must be changed to `index.md`
