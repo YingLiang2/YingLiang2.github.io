@@ -110,10 +110,10 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 
 ## Authors and Acknowledgements
 
-* Author: Ying Liang - 7893120 
+* Author: Ying Liang | 7893120 | [liangy5@myumanitoba.ca](mailto:liangy5@myumanitoba.ca)
 * Edited and reviewed by:
   * 
-* Jekyll Theme - Cayman
+* Jekyll Theme - [Cayman](https://github.com/pages-themes/cayman)
 * Special thanks to Stewart Wilcox for providing the template for this README and providing clear instructions. 
 
 ## FAQs
