@@ -84,8 +84,9 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
     4. Commit the changes to the repository by clicking **Commit changes** button in green again. You may add an optional descriptive commit message if wanted.
       ![](images/Commit_Rename.png)
 
-4. Your resume should be now hosted on GitHub pages. Navigate to `github.com/[YourGitHubUserName].github.io` to check the webpage. Make sure to check all files you uploaded (mainly your resume) has been uploaded are in place.
+4. Your resume should be now hosted on GitHub pages. Navigate to `https://[YourGitHubUserName].github.io` to check the webpage. Make sure to check all files you uploaded (mainly your resume) has been uploaded are in place.
     * It might take a 5 minutes to 30 minutes to upload the files to the server to host, once it has been uploaded, you should see a green dot in the title of repository.
+    * Example: [https://yingliang2.github.io](https://yingliang2.github.io/)
 
 5. With your resume now hosted, we can fancy it up by adding a Jekyll theme by adding a `_config.yml` file
 
