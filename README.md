@@ -96,7 +96,8 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 
 6. Once the filed is saved, commit the `_config.yml` file to the repository. 
 
-7. With the config file comitted you're done! Congratulations. The final product should be look something like this: [INSERT GIF BELOW]
+7. With the config file comitted you're done! Congratulations. The final product should be look something like this: 
+   ![](images/Animated_Resume_Scrolling.gif)
 
 ## More Resources
 
