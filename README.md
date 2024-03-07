@@ -1,7 +1,7 @@
 # Hosting a resume on Github Pages and applying principles from "Modern Technical Writing" by Andrew Etter's book when creating a README.
 
 ## Purpose
-The purpose of this document is to describe the steps to host and format a Resume on Github pages which will allow the user to learn about Markdown, and static websites. Also the document encorporates elements of "Modern Technical Writing" by Andrew Etter to help the user create modern, simplistic and functional documentation - a resume in this case. This tutorial will be done on the Windows Operating System.
+The purpose of this document is to describe the steps to host and format a Resume on GitHub pages which will allow the user to learn about Markdown, and static websites. Also the document incorporates elements of "Modern Technical Writing" by Andrew Etter to help the user create modern, simplistic and functional documentation - a resume in this case. This tutorial will be done on the Windows Operating System.
 
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
@@ -20,7 +20,7 @@ The purpose of this document is to describe the steps to host and format a Resum
 
   * *Why use Git and Version Control?*
 
-    * *Version control is one of the core principles from  Etter's *Modern Technical Writing*. It allows colloborators to track different versions and therefore progression and evolution of the document to version it currently exists. Version control also allows collabotors to work on the same file concurrently and offline as well. Git is one of the most common version control tools that many developers use today.*
+    * *Version control is one of the core principles from Etter's *Modern Technical Writing*. It allows collaborators to track different versions and therefore progression and evolution of the document to version it currently exists. Version control also allows collaborators to work on the same file concurrently and offline as well. Git is one of the most common version control tools that many developers use today.*
 
   * For a refresher or more learning refer to **GitHub points** in [More Resources section](#more-resources)
 
@@ -28,7 +28,7 @@ The purpose of this document is to describe the steps to host and format a Resum
     
   * *Why use Markdown?*
 
-    * *Markdown is a keytool mentioned by Etter's book that is used universally by the tech community. It is a lightweight markup language which has an easy learning curve, is very verstile and it is cross-platform compatible. Markdown formats the base information to a blueprint where many tools and applications can use this blueprint to style the information however they want. Therefore cross-platform compatiblity is very high. More importantly due to its ease of use, it allows for colloboration from others.* 
+    * *Markdown is a key tool mentioned by Etter's book that is used universally by the tech community. It is a lightweight markup language which has an easy learning curve, is very versatile and it is cross-platform compatible. Markdown formats the base information to a blueprint where many tools and applications can use this blueprint to style the information however they want. Therefore cross-platform compatibility is very high. More importantly due to its ease of use, it allows for collaboration from others.* 
 
   * For a refresher or more learning refer to **Markdown points** in [More Resources section](#more-resources)
 
@@ -41,11 +41,11 @@ The purpose of this document is to describe the steps to host and format a Resum
 * Resume formatted/edited in Markdown with the file named `resume.md`
 
 ## Instructions
-This is a step-by-step guide of first hosting a resume on GitHub Pages and then making changes our our resumes when needed.
+This is a step-by-step guide of first hosting a resume on GitHub Pages and then making changes to our resumes when needed.
   
   * *Why use GitHub and GitHub Pages*
   
-    * *GitHub is part of Etter's core principle of Distributed Version Control. Mentioned earlier, version control allows for offline work, easy collaboration and tracking / evolution of the project. GitHub is a website that can hosts remote repositorys so all parties can easily access the repository from anywhere. GitHub Pages is our static hosting site which is built into GitHub therefore hosting a resume is incredibly easy and seamless.*
+    * *GitHub is part of Etter's core principle of Distributed Version Control. Mentioned earlier, version control allows for offline work, easy collaboration and tracking / evolution of the project. GitHub is a website that can hosts remote repositories so all parties can easily access the repository from anywhere. GitHub Pages is our static hosting site which is built into GitHub therefore hosting a resume is incredibly easy and seamless.*
 
 1. Log in to your GitHub account and create a new repository named: `[YourGitHubUserName].github.io`
 
@@ -97,7 +97,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 
 6. Once the filed is saved, commit the `_config.yml` file to the repository
 
-7. With the config file comitted you're done! Congratulations. The final product should be look something like this: 
+7. With the config file committed you're done! Congratulations. The final product should be look something like this: 
    ![](images/Animated_Resume_Scrolling.gif)
 
 ## More Resources
