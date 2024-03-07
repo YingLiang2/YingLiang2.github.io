@@ -16,7 +16,7 @@ The purpose of this document is to describe the steps to host and format a Resum
 
 * Create a [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
-* Basic familarity of Git and version control.
+* Basic familarity of Git and version control
 
   * *Why use Git and Version Control?*
 
@@ -32,7 +32,7 @@ The purpose of this document is to describe the steps to host and format a Resum
 
   * For a refresher or more learning refer to **Markdown points** in [More Resources section](#more-resources)
 
-* [Optional] Markdown Editior 
+* [Optional] Markdown Editor 
 
   * It is highly recommended you invest the time into using a markdown editor as it will speed up the process of creating a Markdown document. This tutorial can be fully done using GitHub itself.
 
@@ -49,7 +49,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 
 1. Log in to your GitHub account and create a new repository named: `[YourGitHubUserName].github.io`
 
-   1. Creating a repository can done in either two ways.
+   1. Creating a repository can done in either two ways
    
       * Option A: First click the **"+"** sign at the top right (Red Rectangle), then click **New repository** (Black Rectangle)
          
@@ -67,7 +67,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
       ![](images/Uploading_First_File_Cropped.png)
 
    2. Add your resume in, saved as "resume.md". Here the commit message box is a description of what you did. So for example in this case, a new file was added. Once you have written a commit message which optional but highly recommened then you can click **Commit changes...** to add the resume to the repository.
-      * *A commit message helps the repo keep logs of everything that has been committed.*
+      * *A commit message helps the repo keep logs of everything that has been*
       ![](images/Adding_Files_Cropped.png)
 
 3. To successfully host a static site of your resume, the file name must be changed to `index.md`
@@ -87,26 +87,26 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 4. Your resume should be now hosted on GitHub pages. Navigate to `github.com/[YourGitHubUserName].github.io` to check the webpage. Make sure to check all files you uploaded (mainly your resume) has been uploaded are in place.
     * It might take a 5 minutes to 30 minutes to upload the files to the server to host, once it has been uploaded, you should see a green dot in the title of repository.
 
-5. With your resume now hosted, we can fancy it up by adding a Jekyll theme by adding a `_config.yml` file.
+5. With your resume now hosted, we can fancy it up by adding a Jekyll theme by adding a `_config.yml` file
 
-    1. First create a new text file. 
+    1. First create a new text file
     2. Add in the line `theme: jekyll-theme-cayman`
     3. Save the file as type: "All Files" with the name `_config.yml`
       ![](images/SaveAs_yml.png)
 
-6. Once the filed is saved, commit the `_config.yml` file to the repository. 
+6. Once the filed is saved, commit the `_config.yml` file to the repository
 
 7. With the config file comitted you're done! Congratulations. The final product should be look something like this: 
    ![](images/Animated_Resume_Scrolling.gif)
 
 ## More Resources
 
-* [Modern Techinical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by Andrew Etter. 
-* [Markdown basics](https://www.markdownguide.org/basic-syntax/) if you would like a fresher on Markdown. 
-* [Markdown tutorial](https://www.markdowntutorial.com/) if you would like to learn the ins and outs of Markdown.
-* [Jekyll Themes](https://pages.github.com/themes/) supported on GitHub Pages.
+* [Modern Techinical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by Andrew Etter 
+* [Markdown basics](https://www.markdownguide.org/basic-syntax/) if you would like a fresher on Markdown
+* [Markdown tutorial](https://www.markdowntutorial.com/) if you would like to learn the ins and outs of Markdown
+* [Jekyll Themes](https://pages.github.com/themes/) supported on GitHub Pages
 * [GitHub Documentation](https://docs.github.com/en/get-started/start-your-journey/hello-world) for more resources to navigate and learn GitHub 
-* [Markdown Editors](https://github.com/mundimark/awesome-markdown-editors) is a list of Markdown editors for all OS and use-cases.
+* [Markdown Editors](https://github.com/mundimark/awesome-markdown-editors) is a list of Markdown editors for all OS and use-cases
 
 ## Authors and Acknowledgements
 
@@ -114,7 +114,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 * Edited and reviewed by:
   * 
 * Jekyll Theme - [Cayman](https://github.com/pages-themes/cayman)
-* Special thanks to Stewart Wilcox for providing the template for this README and providing clear instructions. 
+* Special thanks to Stewart Wilcox for providing the template for this README and providing clear instructions 
 
 ## FAQs
 
@@ -124,6 +124,6 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 
 * Why is my resume not showing up?
 
-  1. Please check your resume file name is `index.md`
+  1. Please check your resume file name is `index.md`.
 
-  2. Please double check the URL you are visiting. The correct URL is `https://www.[YourGitHubUserName].github.io`. So for example, to visit the GitHub pages for this repository you would enter the url: [`https://yingliang2.github.io/`](https://yingliang2.github.io/)
+  2. Please double check the URL you are visiting. The correct URL is `https://www.[YourGitHubUserName].github.io`. So for example, to visit the GitHub pages for this repository you would enter the url: [`https://yingliang2.github.io/`](https://yingliang2.github.io/).
