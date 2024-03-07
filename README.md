@@ -72,7 +72,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 
 3. To successfully host a static site of your resume, the file name must be changed to `index.md`
     
-    1. Click the that you want to edit, in this case `resume.md`
+    1. Click the file that you want to edit, in this case `resume.md`
       ![](images/Edit_Resume_Name_1_Cropped.png)
 
     2. Click the Edit button which has the pencil icon.
