@@ -22,8 +22,6 @@ The purpose of this document is to describe the steps to host and format a Resum
 
     * *Version control is one of the core principles from Etter's *Modern Technical Writing*. It allows collaborators to track different versions and therefore progression and evolution of the document to version it currently exists. Version control also allows collaborators to work on the same file concurrently and offline as well. Git is one of the most common version control tools that many developers use today.*
 
-  * For a refresher or more learning refer to **GitHub points** in [More Resources section](#more-resources)
-
 * Basic familiarity and understanding of Markdown
     
   * *Why use Markdown?*
@@ -38,15 +36,21 @@ The purpose of this document is to describe the steps to host and format a Resum
 
   * List of recommended **Markdown Editors** in [More Resources section](#more-resources)
 
+* Basic familarity with static websites and website hosting.
+
+  * *Why use GitHub and GitHub Pages*
+
+    * *GitHub is part of Etter's core principle of Distributed Version Control. Mentioned earlier, version control allows for offline work, easy collaboration and tracking / evolution of the project. GitHub is a website that can hosts remote repositories so all parties can easily access the repository from anywhere. GitHub Pages is our static hosting site which is built into GitHub therefore hosting a resume is incredibly easy and seamless.*
+
+  * For more learning on [static websites](https://www.wix.com/blog/static-vs-dynamic-website)
+
+  * For a refresher or more learning refer to **GitHub points** in [More Resources section](#more-resources)
+
 * Resume formatted/edited in Markdown with the file named `resume.md`
 
 ## Instructions
 This is a step-by-step guide of first hosting a resume on GitHub Pages and then making changes to our resumes when needed.
   
-  * *Why use GitHub and GitHub Pages*
-  
-    * *GitHub is part of Etter's core principle of Distributed Version Control. Mentioned earlier, version control allows for offline work, easy collaboration and tracking / evolution of the project. GitHub is a website that can hosts remote repositories so all parties can easily access the repository from anywhere. GitHub Pages is our static hosting site which is built into GitHub therefore hosting a resume is incredibly easy and seamless.*
-
 1. Log in to your GitHub account and create a new repository named: `[YourGitHubUserName].github.io`
 
    1. Creating a repository can done in either two ways
@@ -57,7 +61,6 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
        ![](images/Creating_New_Repo_Cropped.png)
 
     2. In the **Repository name** field, enter `[YourGitHubUserName].github.io`, then click **Create repository** (green button at the bottom)
-
        * *Ignore all other fields.*
         ![](images/Naming_Repo_Cropped.png)
 
@@ -67,7 +70,7 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
       ![](images/Uploading_First_File_Cropped.png)
 
    2. Add your resume in, saved as "resume.md". Here the commit message box is a description of what you did. So for example in this case, a new file was added. Once you have written a commit message which optional but highly recommened then you can click **Commit changes...** to add the resume to the repository.
-      * *A commit message helps the repo keep logs of everything that has been*
+      * *A commit message helps the repo keep logs of everything that has been changed/committed*
       ![](images/Adding_Files_Cropped.png)
 
 3. To successfully host a static site of your resume, the file name must be changed to `index.md`
@@ -85,13 +88,15 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
       ![](images/Commit_Rename.png)
 
 4. Your resume should be now hosted on GitHub pages. Navigate to `https://[YourGitHubUserName].github.io` to check the webpage. Make sure to check all files you uploaded (mainly your resume) has been uploaded are in place.
-    * It might take a 5 minutes to 30 minutes to upload the files to the server to host, once it has been uploaded, you should see a green dot in the title of repository.
-    * Example: [https://yingliang2.github.io](https://yingliang2.github.io/)
+   * It might take a 5 minutes to 30 minutes to upload the files to the server to host.
+   * Example: [https://yingliang2.github.io](https://yingliang2.github.io/)
 
 5. With your resume now hosted, we can fancy it up by adding a Jekyll theme by adding a `_config.yml` file
 
-    1. First create a new text file
+    1. First create a new text file in Windows.
+
     2. Add in the line `theme: jekyll-theme-cayman`
+
     3. Save the file as type: "All Files" with the name `_config.yml`
       ![](images/SaveAs_yml.png)
 
@@ -112,19 +117,20 @@ This is a step-by-step guide of first hosting a resume on GitHub Pages and then 
 ## Authors and Acknowledgements
 
 * Author: Ying Liang | 7893120 | [liangy5@myumanitoba.ca](mailto:liangy5@myumanitoba.ca)
-* Edited and reviewed by:
-  * 
+* Reviewed by:
+  * Hung (Kevin) Tran
+  * Kaiden Bereznycky 
 * Jekyll Theme - [Cayman](https://github.com/pages-themes/cayman)
 * Special thanks to Stewart Wilcox for providing the template for this README and providing clear instructions 
 
 ## FAQs
 
-* Why is Markdown better than a word processor?
+* *Why is Markdown better than a word processor?*
 
-  * Markdown is a lightweight markup language where it is supported in many different applications natively whereas word processor files are not supported as natively as Markdown. Because Markdown is designed as a markup language, it allows for many applications to just apply CSS Styling to base text formatted in Markdown and it will appear with styling on web applications. This process is one of the core principles on why Markdown is supported natively in many websites. Word files have to manually edited and formatted with the word processor to have styles applied.
+  * *Markdown is a lightweight markup language where it is supported in many different applications natively whereas word processor files are not supported as natively as Markdown. Because Markdown is designed as a markup language, it allows for many applications to just apply CSS Styling to base text formatted in Markdown and it will appear with styling on web applications. So Markdown compared to a word processor file is more simplistic and is cross-compatible with many technologies.
 
-* Why is my resume not showing up?
+* *Why is my resume not showing up?*
 
-  1. Please check your resume file name is `index.md`.
+  1. *Please check your resume file name is `index.md`.*
 
-  2. Please double check the URL you are visiting. The correct URL is `https://www.[YourGitHubUserName].github.io`. So for example, to visit the GitHub pages for this repository you would enter the url: [`https://yingliang2.github.io/`](https://yingliang2.github.io/).
+  2. *Please double check the URL you are visiting. The correct URL is `https://www.[YourGitHubUserName].github.io`. So for example, to visit the GitHub pages for this repository you would enter the url: [`https://yingliang2.github.io/`](https://yingliang2.github.io/).*
